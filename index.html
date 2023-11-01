@@ -23,34 +23,52 @@
     </header>
 
     <main class="columns" style="border:green 2px solid; padding:20px; height:100%;">
-        <aside class="column" style="border:2px red solid; height :75vh;">
 
+        <!--Left Side Search-->
+        <aside id="search-container" class="column" style="border:2px red solid; height :75vh;">
         </aside>
+
+
         <section class="column is-four-fifths is-flex is-flex-wrap-wrap is-align-content-space-around" style="border:2px red solid;height :75vh;">
+
+            <!--Buttons Container-->
             <div id="button-container" class="column is-full" style="border: blue 2px solid; height: 20%;"></div>
+
+            <!--Book Container-->
             <div id="book-container" class="column is-full columns" style="border: blue 2px solid; height: 35%;">
                 
+                <!--Book Cover Section-->
                 <div id="book-cover" class ="is-2 column is-flex is-justify-content-center is-align-items-center" style="border: green 2px solid;">
                     <!-- The image source should have the zoom parameter removed or zoom=0 -->
                     <img src="https://placehold.co/175x265" alt="placeholder image" style="max-height: 95%">
                 </div>
+
+                <!--Book Info Section-->
                 <div id="book-info" class ="column" style="border: green 2px solid;">
                     <!-- Book Info Goes Here -->
                 </div>
+
             </div>
+
             <div id="tea-container" class="columns column is-full" style="border: blue 2px solid; height: 35%;">
+
                 <div id="tea-image" class ="is-2 column is-flex is-justify-content-center is-align-items-center" style="border: green 2px solid;">
                     <!-- Depending on the sizes of the tea images, we may need to change the placeholder and/or the styling -->
                     <img src="https://placehold.co/175x265" alt="placeholder image" style="max-height: 95%">
                 </div>
+
                 <div id="tea-info" class ="column" style="border: green 2px solid;">
                     <!-- Tea Info Goes Here -->
                     
                 </div>
+
             </div>
+
         </section>
-    </main>
         
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="./assets/js/script.js"></script>
 </body>
 </html>
